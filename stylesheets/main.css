@@ -4,3 +4,12 @@
    font-weight: bold;
    color: #0000CC;
 }
+
+body {
+   background-color: #FDD6B4;
+}
+
+.main-content {
+   padding-left: 10%;
+   padding-right: 10%;
+}
