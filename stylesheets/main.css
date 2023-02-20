@@ -1,20 +1,39 @@
-/* This is a comment in CSS. */
-.example-blue-style {
-   font-family: Helvetica, Arial, sans-serif;
-   font-weight: bold;
-   color: #0000CC;
+body {
+   background-color: #fdd6b4;
+   padding-bottom: 5vh;
 }
 
-body {
-   background-color: #FDD6B4;
+.container {
+   display: flex;
+   flex-direction: column;
+}
+
+.about {
+   margin-top: 25px;
+   margin-bottom: 25px;
+   font-size: 1.5em;
 }
 
 .main-content {
-   padding-left: 10%;
-   padding-right: 10%;
+   padding-left: 10vw;
+   padding-right: 10vw;
+   display: block;
+   order: 1;
 }
 
 .flavors {
-    visibility: hidden;
-    margin-top: -90vh;
+    display: block;
+    order: 2;
+}
+
+.banner {
+   background-color: #fff2fa;
+   padding-top: 1vh;
+   padding-bottom: 1vh;
+}
+
+.hidden {
+   visibility: hidden;
+   overflow: hidden;
+   line-height: 0;
 }
