@@ -26,6 +26,10 @@ body {
     order: 2;
 }
 
+.flavors-list {
+   font-size: 2em;
+}
+
 .banner {
    background-color: #fff2fa;
    padding-top: 1vh;

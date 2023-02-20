@@ -3,19 +3,26 @@
 let toggle = 0;
 
 function mainClick(){
-    document.getElementsByClassName('main-content')[0].style.order = '1';
-    document.getElementsByClassName('main-content')[0].classList.remove('hidden')
+    mainContent = document.getElementsByClassName('main-content')[0];
+    mainContent.style.order = '1';
+    mainContent.classList.remove('hidden');
+    document.getElementById('main-button').classList.add('active');
 
-    document.getElementsByClassName('flavors')[0].style.order = '2';
-    document.getElementsByClassName('flavors')[0].classList.add('hidden');
-
+    flavors = document.getElementsByClassName('flavors')[0];
+    flavors.style.order = '2';
+    flavors.classList.add('hidden');
+    document.getElementById('flavor-button').classList.remove('active');
 }
 
 
 function flavorClick(){
-    document.getElementsByClassName('main-content')[0].style.order = '2';
-    document.getElementsByClassName('main-content')[0].classList.add('hidden')
+    mainContent = document.getElementsByClassName('main-content')[0];
+    mainContent.style.order = '2';
+    mainContent.classList.add('hidden');
+    document.getElementById('main-button').classList.remove('active');
 
-    document.getElementsByClassName('flavors')[0].style.order = '1';
-    document.getElementsByClassName('flavors')[0].classList.remove('hidden');
+    flavors = document.getElementsByClassName('flavors')[0];
+    flavors.style.order = '1';
+    flavors.classList.remove('hidden');
+    document.getElementById('flavor-button').classList.add('active');
 }

@@ -32,8 +32,8 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active" onclick="mainClick()"><a href="#">Our Mission<span class="sr-only">(current)</span></a></li>
-            <li><a href="#" onclick="flavorClick()">Flavors</a></li>
+            <li id="main-button" class="active" onclick="mainClick()"><a href="#">Our Mission<span class="sr-only">(current)</span></a></li>
+            <li id="flavor-button"><a href="#" onclick="flavorClick()">Flavors</a></li>
           </ul>
         </div>
     </div>
@@ -55,8 +55,8 @@
     </div>
 
     <div class="flavors hidden">
-      <h1 class="text-center">here are our flavors this week </h1>
-        <ul>
+      <h1 class="text-center banner">This Week's Flavors:</h1>
+        <ul class="flavors-list">
           <li>vanilla</li>
           <li>scottish vanilla</li>
           <li>black raspberry</li>
