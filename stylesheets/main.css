@@ -15,29 +15,42 @@ body {
 }
 
 .main-content {
-   padding-left: 10vw;
-   padding-right: 10vw;
+   padding-left: 5vw;
+   padding-right: 5vw;
    display: block;
    order: 1;
 }
 
 .flavors {
-    display: block;
-    order: 2;
+   padding-left: 5vw;
+   padding-right: 5vw;
+   display: block;
+   order: 2;
 }
 
 .flavors-list {
    font-size: 2em;
+   margin-top: 1em;
 }
 
 .banner {
    background-color: #fff2fa;
-   padding-top: 1vh;
-   padding-bottom: 1vh;
+   padding-top: 1rem;
+   padding-bottom: 1.75rem;
+   border-bottom: 0.75rem solid #e475c1;
 }
 
 .hidden {
    visibility: hidden;
    overflow: hidden;
    line-height: 0;
+}
+
+@media screen and (max-width: 600px) {
+   .about {
+      font-size: 1em;
+   }
+   .flavors-list {
+      font-size: 1.5em;
+   }
 }

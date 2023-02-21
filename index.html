@@ -1,18 +1,21 @@
-<!--This is a comment in HTML.-->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <title>Scooperla</title>
-  <link rel="icon" type="image/x-icon" href="/assets/scoops-of-perfection.png">
+  <link rel="icon" type="image/x-icon" href="./assets/scoops-of-perfection.png">
  
   <!-- stylesheets-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="stylesheets/main.css" >
 
+  <script src="js/main.js"></script>
+  <!-- bootstrap-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   
 </head>
 <body>
@@ -26,8 +29,8 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">
-              <!--<img alt="Brand" src="...">-->
-              Brand</a>
+              <img src="./assets/Scoops-of-perfection.png" alt="Scooperla logo" width="30" height="30">
+          </a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -41,7 +44,9 @@
 
   <div class="container">
     <div class="main-content">
-      <h1 class="text-center banner">Scoops of Happiness in Every Cone </h1>
+      <div class="banner">
+        <h1 class="text-center">Scoops of Happiness in Every Cone </h1>
+      </div>
       <!-- image code from https://mdbootstrap.com/docs/standard/content-styles/background-image/-->
       <div
       class="bg-image"
@@ -55,7 +60,9 @@
     </div>
 
     <div class="flavors hidden">
-      <h1 class="text-center banner">This Week's Flavors:</h1>
+      <div class="banner">
+        <h1 class="text-center">This Week's Flavors:</h1>
+      </div>
         <ul class="flavors-list">
           <li>vanilla</li>
           <li>scottish vanilla</li>
@@ -66,9 +73,4 @@
   </div>
 </body>
 
-<script src="js/main.js"></script>
-<!-- bootstrap-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </html>
