@@ -1,9 +1,17 @@
 body {
-   background-color: #fdd6b4;
+   background-color: white;
    padding-bottom: 5vh;
 }
 
-.container {
+.navbar {
+   margin-bottom: 0;
+}
+
+.nav-custom {
+   background-color: white;
+}
+
+.content {
    display: flex;
    flex-direction: column;
 }
@@ -12,32 +20,33 @@ body {
    margin-top: 25px;
    margin-bottom: 25px;
    font-size: 1.5em;
+   padding-left: 3em;
+   padding-right: 3em;
 }
 
 .main-content {
-   padding-left: 5vw;
-   padding-right: 5vw;
-   display: block;
    order: 1;
 }
 
 .flavors {
-   padding-left: 5vw;
-   padding-right: 5vw;
-   display: block;
    order: 2;
 }
 
 .flavors-list {
    font-size: 2em;
    margin-top: 1em;
+   padding-left: 3em;
+   padding-right: 3em;
 }
 
 .banner {
-   background-color: #fff2fa;
+   background-color: #e475c1;
+   color: white;
    padding-top: 1rem;
-   padding-bottom: 1.75rem;
-   border-bottom: 0.75rem solid #e475c1;
+   padding-bottom: 1.5rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   border-top: 0.5rem solid #3acfbb;
 }
 
 .hidden {
@@ -52,5 +61,9 @@ body {
    }
    .flavors-list {
       font-size: 1.5em;
+   }
+   .bg-image {
+      background-size: 600px;
+      max-height: 200px;
    }
 }
