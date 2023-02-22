@@ -11,6 +11,17 @@ body {
    background-color: white;
 }
 
+#logo {
+   display: inline-block;
+}
+
+.navbar-brand span {
+   font-size: 1.8rem;
+   display: inline-block;
+   vertical-align: top;
+   padding-left: 1rem;
+}
+
 .content {
    display: flex;
    flex-direction: column;
